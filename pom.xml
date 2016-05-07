@@ -84,7 +84,7 @@
 				<version>2.2</version>
 				<configuration>
 					<!--url>http://localhost:8080/manager/text</url -->
-					<url>http://localhost:8080/manager/text</url>
+					<url>http://ec2-54-85-124-198.compute-1.amazonaws.com:9090/manager/text</url>
 					<server>TomcatServer</server>
 					<path>/AdoptNextApp</path>
 				</configuration>
