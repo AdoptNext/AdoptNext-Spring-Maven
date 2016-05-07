@@ -17,7 +17,7 @@ public class AdoptNext extends HttpServlet {
 	  {
 	      // Do required initialization
 	      message = "ADOPT NEXT";
-	      version = "102";
+	      version = "103";
 	  }
 
 	  public void doGet(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException
