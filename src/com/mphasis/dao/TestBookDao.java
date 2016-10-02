@@ -1,16 +1,16 @@
 package com.mphasis.dao;
 
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
+import com.junit.Assert.assertEquals;
+import com.junit.Assert.assertNotNull;
+import com.mockito.Mockito.mock;
+import com.mockito.Mockito.when;
 
 import java.util.Arrays;
 import java.util.List;
 
-import org.junit.BeforeClass;
-import org.junit.Test;
+import com.junit.BeforeClass;
+import com.junit.Test;
 
 import com.mphasis.model.Book;
 
