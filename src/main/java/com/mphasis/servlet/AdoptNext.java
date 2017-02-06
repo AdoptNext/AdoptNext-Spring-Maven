@@ -16,7 +16,7 @@ public class AdoptNext extends HttpServlet {
 	  public void init() throws ServletException
 	  {
 	      // Do required initialization
-	      message = "ADOPT NEXT";
+	      message = "AdopTNexT";
 	      version = "101";
 	  }
 
@@ -33,6 +33,16 @@ public class AdoptNext extends HttpServlet {
 	      out.println("<h1 style=\"text-align:center\" bgcolor=\"#5F9EA0\"><b>" + message + "</b></h1>");
 	      out.println("<h1 style=\"text-align:center\" bgcolor=\"#5F9EA0\"><b>" + version + "</b></h1>");
 	      
+	      out.println("<h3 style=\"text-align:center\" bgcolor=\"#5F9EA0\"><b>" + "Server Name = " + request.getServerName() + "</b></h3>");
+	      //out.println("<h3 style=\"text-align:center\" bgcolor=\"#5F9EA0\"><b>" + "Local Addr = " + request.getLocalAddr() + "</b></h3>");
+		  out.println("<h3 style=\"text-align:center\" bgcolor=\"#5F9EA0\"><b>" + "Server Port = " + request.getServerPort() + "</b></h3>");
+		  //out.println("<h3 style=\"text-align:center\" bgcolor=\"#5F9EA0\"><b>" + "Context Path = " + request.getContextPath() + "</b></h3>");	
+		  //out.println("<h3 style=\"text-align:center\" bgcolor=\"#5F9EA0\"><b>" + "Request URL = " + request.getRequestURL().toString() + "</b></h3>");	
+
+	      //out.println("<h3 style=\"text-align:center\" bgcolor=\"#5F9EA0\"><b>" + "Remote Addr = " + request.getRemoteAddr() + "</b></h3>");
+	      //out.println("<h3 style=\"text-align:center\" bgcolor=\"#5F9EA0\"><b>" + "Remote Host = " + request.getRemoteHost() + "</b></h3>");
+	      
+
 	      out.println("</body></html>");
 	  }
 	  
@@ -40,6 +50,9 @@ public class AdoptNext extends HttpServlet {
 	  {
 	      // do nothing.
 	  }
+
+
+	  
 
 }
  
