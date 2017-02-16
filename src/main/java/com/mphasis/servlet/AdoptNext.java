@@ -16,7 +16,7 @@ public class AdoptNext extends HttpServlet {
 	  public void init() throws ServletException
 	  {
 	      // Do required initialization
-	      message = "AdoptNext";
+	      message = "AdoptNext @ Mphasis";
 	      version = "102";
 	  }
 
